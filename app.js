@@ -1,9 +1,9 @@
 const projects = [
-  {name: "Minishell", git_url:"https://www.google.com", image: "", description: "Interact with your computer, send commands the same way a traditionnal shell would. Made using C."},
-  {name: "FT_IRC", git_url:"https://www.google.com", image: "", description: "Following standard IRC protocols, join server, chat with your friends or with strangers. Made using C++."},
-  {name: "Cube3D", git_url:"https://www.google.com", image: "", description: "Travel and explore in this raycasting game. Made using C and the Minilibx graphic library (similar to OpenGL)."},
-  {name: "Quizz Game", git_url:"https://www.google.com", image: "", description: "Test your general knowldege with this quizz app! Made using React, HTML, CSS and javascript."},
-  {name: "Movie Watchlist", git_url:"https://www.google.com", image: "", description: "Search for your favorite movie and save it in the watchlist. Made using HTML, CSS and javascript."},
+  {name: "Minishell", git_url:"https://github.com/ShroomySquid/Minishell", image: "", description: "Interact with your computer, send commands the same way a traditionnal shell would. Made using C."},
+  {name: "FT_IRC", git_url:"https://github.com/ShroomySquid/IRC", image: "", description: "Following standard IRC protocols, join server, chat with your friends or with strangers. Made using C++."},
+  {name: "Cube3D", git_url:"https://github.com/ShroomySquid/Cub3D", image: "", description: "Travel and explore in this raycasting game. Made using C and the Minilibx graphic library (similar to OpenGL)."},
+  {name: "Quizz Game", git_url:"https://github.com/ShroomySquid/QuizzGame", image: "", description: "Test your general knowldege with this quizz app! Made using React, HTML, CSS and javascript."},
+  {name: "Movie Watchlist", git_url:"https://github.com/ShroomySquid/Movie-Watchlist", image: "", description: "Search for your favorite movie and save it in the watchlist. Made using HTML, CSS and javascript."},
 ];
 
 const project_box = document.getElementById("project_container");
