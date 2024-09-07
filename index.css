@@ -1,7 +1,86 @@
-body {
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-    font-family: inter;
-    font-size: 16px;
+:root {
+  --green_background: #025939;
+  --green_shadow: #013220;
+  --gray: #888888;
 }
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: inter;
+  font-size: 16px;
+  background-color: var(--green_background);
+}
+
+header {
+  background-color: var(--gray);
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#project_container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  margin: auto;
+}
+
+.project {
+  width: 400px;
+  height: 300px;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 32px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: green;
+  box-shadow: 10px 10px inset green, 10px 10px green, 20px 20px 5px inset var(--gray), 20px 20px 5px var(--green_shadow);
+  /* box-shadow: 10px 10px green, 20px 20px 5px var(--green_shadow); */
+  transition: height 0.5s;
+  padding: 1rem;
+  container-type: size;
+}
+
+.git_link {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.project_description {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+@media (width <= 800px) {
+  .project {
+    height: 400px;
+  }
+}
+
+@container (height: 400px) {
+  .git_link {
+    opacity: 1;
+  }
+  .project_description {
+    opacity: 1;
+  }
+}
+
+.project:hover {
+  height: 400px;
+}
+
