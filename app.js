@@ -5,7 +5,9 @@ const projects = [
   {name: "Quizz Game", git_url:"https://github.com/ShroomySquid/QuizzGame", image: "img/quizz.png", description: "Test your general knowldege with this quizz app! Made using React, HTML5, CSS and javascript."},
   {name: "Movie Watchlist", git_url:"https://github.com/ShroomySquid/Movie-Watchlist", image: "img/watchlist.png", description: "Search for your favorite movie and save it in the watchlist. Made using HTML5, CSS and javascript."},
   {name: "Summon Me", git_url:"https://github.com/ShroomySquid/Ludum_Dare", image: "img/summon_me.png", description: "Management game made during the Ludum Dare 55 game jam. Made with Godot and GDscript"},
-  {name: "Transcendance", git_url:"https://github.com/lcouturi/ft_transcendence", image: "img/trans.PNG", description: "Website with a game of pong. Build from scratch including dockers, nginx, django & postgres, 3Djs, HTML5, CSS, javascript"},
+  {name: "Transcendance", git_url:"https://github.com/lcouturi/ft_transcendence", image: "img/trans.PNG", description: "Website with a game of pong. Build from scratch including dockers, nginx, django and postgres, 3Djs, HTML5, CSS, javascript"},
+  {name: "Push-Swap", git_url:"https://github.com/ShroomySquid/push_swap", image: "img/push_swap.jpg", description: "Program that sort given numbers in ascending order. Made in C using a bucket sort algorithm."},
+  {name: "Philosopher", git_url:"https://github.com/ShroomySquid/Philosophers", image: "img/philosopher.png", description: "Program that solve the classic dining philosopher problem. Made in C."},
 ];
 
 // template for individual project
